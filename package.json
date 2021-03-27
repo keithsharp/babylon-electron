@@ -1,0 +1,18 @@
+{
+  "name": "babylon-electron",
+  "version": "1.0.0",
+  "description": "An Electron application using Babylon JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "Keith Sharp <kms@passback.co.uk>",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.23.0",
+    "typescript": "^4.2.3"
+  }
+}
