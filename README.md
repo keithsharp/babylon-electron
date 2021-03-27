@@ -1,6 +1,17 @@
 # An Electron Application using Babylon JS 
 Building an [Electron](https://www.electronjs.org) application using [Babylon JS](https://www.babylonjs.com) and associated TypeScript, JavaScript, and NodeJS features and libraries.
 
+To get started, clone this repo, then:
+```
+npm install
+npm run build
+npm run start
+```
+You can create a package for distribution (only tested on macOS Big Sur):
+```
+npm run dist
+```
+
 ## Copyright and License
 Copyright 2021, Keith Sharp kms@passback.co.uk.
 
