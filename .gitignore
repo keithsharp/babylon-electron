@@ -26,6 +26,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Node / JavaScript / TypeScript
+# Node / JavaScript / TypeScript / Electron
 node_modules
 dist
+app

@@ -10,13 +10,13 @@
         "es6"
     ],
     "rootDir": "src",
-    "outDir": "dist",
+    "outDir": "app",
     "baseUrl": ".",
     "paths": {
       "*": ["node_modules/*"]
     }
   },
   "include": [
-    "src/**/*"
+    "src"
   ]
 }
