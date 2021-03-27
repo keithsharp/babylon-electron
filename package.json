@@ -14,5 +14,8 @@
     "@typescript-eslint/parser": "^4.19.0",
     "eslint": "^7.23.0",
     "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "babylonjs": "^4.2.0"
   }
 }
