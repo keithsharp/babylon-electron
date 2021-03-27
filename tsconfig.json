@@ -2,14 +2,21 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
-    "noResolve": false,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "sourceMap": true,
     "preserveConstEnums":true,
     "lib": [
         "dom",
         "es6"
     ],
-    "rootDir": "src"
-  }
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
